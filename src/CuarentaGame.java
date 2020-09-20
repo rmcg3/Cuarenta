@@ -109,8 +109,7 @@ public class CuarentaGame {
             Logger.getLogger(CuarentaGame.class.getName()).log(Level.SEVERE, null, ex);
         }*/
 
-        System.out.printf("Player 2 played a %s %d\n\n", player2Hand.getCard(rp),
-                player2Hand.getCard(rp).getNumVal());
+       
         System.out.println("Table Pile cards:" + tablePile + "\n");
 
     }
